@@ -341,11 +341,11 @@ Route.get('api/list',async ({request,params})=>{
   const {id}=request.all();
   console.log(1111111)
   // try {
-    Logger.info('request url is %s',request.url())
-    Logger.info('request details %j', {
-      url: request.url(),
-      user: auth.user.username()
-    })
+    // Logger.info('request url is %s',request.url())
+    // Logger.info('request details %j', {
+    //   url: request.url(),
+    //   user: auth.user.username()
+    // })
   // } catch (error) {
   //   console.log(error)
   // }
